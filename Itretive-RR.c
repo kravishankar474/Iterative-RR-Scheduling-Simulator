@@ -8,7 +8,7 @@
 #define READY 1
 #define WAITING 2
 #define RUNNING 3
-#define EXIT 4
+#define EXIT 5
 
 int presenttime=0,time_in_exec=0,EXITED=0,TQ,Context_Switch_Permitted=1,n;
 int  itr=1,ps=0,noe=0;
